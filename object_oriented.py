@@ -8,6 +8,7 @@ class employee:
 		self.last = last
 		self.pay = pay
 		self.email = first +'.' + last +'@company.com'
+		  
 
 	def fullname(self):
 		return '{} {}'.format(self.first, self.last)
@@ -16,7 +17,7 @@ class employee:
 	@classmethod
 	def set_raise_amt(cls, amount):
 		cls.raise_amount = amount
-        
+
     #def raise(self):
     #	self.pay = int(self.pay * self.raise_amount)
 

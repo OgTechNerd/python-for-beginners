@@ -23,7 +23,7 @@ def my_function():
     num_list = []
     for num in (range(0, 10000)):
         num_list.append(num)
-    print("\nSum of all the numbers: " + str((sum(num_list))))
+    print("\nSum of all the numbers: " + str((sum(num_list))))  
 
 if __name__ == "__main__":
    print("Value of __name__is:", __name__)
