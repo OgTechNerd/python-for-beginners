@@ -64,7 +64,7 @@ class vehicle(object):
 
 if __name__ == "__main__":
     car1 = vehicle('ford', 'gt', 2000000, 800)
-    print(car1.model);
+    print(car1.model)
     print(vehicle.variable1)
     print(car1.variable1)
     print(car1.milage())

@@ -24,6 +24,7 @@ class Employee(object):
 
 if __name__ == "__main__":
     obj = Employee("shaun", 90000)
+    print(obj.name)
     print("Employee.__doc__ : {}".format(Employee.__doc__))
     print("Employee.__name__: {}".format(Employee.__name__))
     print("Employee.__module__ : {}".format(Employee.__module__))
