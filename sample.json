@@ -1,0 +1,14 @@
+{
+    "adult": [
+        "sunny",
+        "sophie",
+        "sandra"
+    ],
+    "child": "hermine",
+    "senior": "kate",
+    "character": {
+        "religion": "christian",
+        "feature": "beauty",
+        "profession": "acting"
+    }
+}

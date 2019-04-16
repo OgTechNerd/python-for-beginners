@@ -3,6 +3,7 @@
 import argparse
 
 
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="this script does blah blah")
     subparsers = parser.add_subparsers(help='sub-command help')
@@ -15,5 +16,4 @@ if __name__ == "__main__":
     parser.add_argument("-o", "--output", help="output result to a file", action="store_true")
     parser.add_argument('integers', metavar='N', type=int, nargs='+', help='an integer for the accumulator')
     parser.add_argument('--sum', dest='accumulate', action='store_const', const=sum, default=max, help='sum the integers (default: find the max)')
-    args = parser.parse_args()
-    
+    args = parser.parse_args()   
