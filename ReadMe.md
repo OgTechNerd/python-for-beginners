@@ -1,4 +1,4 @@
-# This Repository hold the source code and explanations  for learning Python 
+# This Repository hold the source code and explanations  for learning Python 3
 The contents are organised as per readability.
 
 So we have three sections 
