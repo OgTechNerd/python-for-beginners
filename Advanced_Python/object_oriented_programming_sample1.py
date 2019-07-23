@@ -39,6 +39,32 @@ class vehicle(object):
         self.manufacturer = manufacturer
         self.gear = False
     
+    # Instance Attributes are unique to each object, (an instance is another name for an object). Here,
+    # any Dog object we create will be able to store its name and age. We can change either attribute of either dog,
+    # without affecting any other dog objects we’ve created.
+
+##class Dog:
+    
+## def __init__(self, name, age):
+##    self.name = name
+##    self.age = age
+
+# This __init__ is called the initializer. It is automatically called when we instantiate the class. 
+# It’s job is to make sure the class has any attributes it needs. It’s sometimes also used to make sure that the object
+# is in a valid state when it’s instantiated, like making sure the user didn’t enter a negative age for the dog.
+# We have to include the self parameter so that our initializer has a reference to the new object being instantiated.
+
+# Class Attributes are unique to each class. Each instance of the class will have this attribute. 
+# It’s sometimes used to specify a defualt value that all objects should have after they’ve been instantiated. 
+# Here, our class attribute is species
+
+# class Dog:
+
+#    species = 'mammal'
+#     def __init__(self, name, age):
+#        self.name = name
+#        self.age = age
+
     # A class method is a method that is bound to a class rather than its object. 
     # It doesn't require creation of a class instance, much like staticmethod.
     # The difference between a static method and a class method is:

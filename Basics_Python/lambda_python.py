@@ -39,9 +39,9 @@ list(map(trace(lambda x: x*2), range(3)))
 
 def discount(current_price):
      return (current_price[0], round(current_price[1] * 0.95, 2))
-
-new_prices = dict(map(discount, prices.items()))
 prices = {'apple': 0.40, 'orange': 0.35, 'banana': 0.25}
+new_prices = dict(map(discount, prices.items()))
+
 
 # filter() is another built-in function that you can use to iterate through a
 # dictionary in Python and filter out some of its items. This function is defined as 
