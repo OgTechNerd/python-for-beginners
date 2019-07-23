@@ -1,17 +1,18 @@
 # This Repository hold the source code and explanations  for learning Python 
+The contents are organised as per readability.
 
 So we have three sections 
 1. Basics
-2. ApI
-3. Best Practices
+2. Best Practices
 4. Advanced
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install any packages required for the 
+program to execute.
 
 ```bash
-pip install foobar
+pip install <package>
 ```
 
 ## Usage
@@ -29,5 +30,5 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Please make sure to update tests as appropriate.
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+## Author 
+Arindam Banerjee
