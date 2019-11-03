@@ -58,4 +58,3 @@ def has_low_price(price):
     return prices[price] < 0.4
 
 low_price = list(filter(has_low_price, prices.keys()))
-low_price
