@@ -1,5 +1,5 @@
 # Lets begin with argparse 
-# we will compare each ibrary method
+# we will compare each library method
 # for implementing the following features 
 # 1. commands , Arguments , Options/Flags
 # Arg Parse Interfaces with the python system module

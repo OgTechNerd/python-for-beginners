@@ -6,7 +6,7 @@
 # reference count reaches zero. An object's reference count changes as the number of aliases that
 # point to it changes.
 # An object's reference count increases when it is assigned a new name or placed in a container
-# list, tuple, ordictionary. The object's reference count decreases when it's deleted with del, its reference
+# list, tuple, or dictionary. The object's reference count decreases when it's deleted with del, its reference
 # is reassigned, or its reference goes  out of scope. When an object's reference count reaches zero,
 # Python collects it automatically.
 

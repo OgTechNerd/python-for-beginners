@@ -24,15 +24,15 @@
 # example function def my_function()
 # my_variable = 'two'
 # package name should not have underscore
-# single letter variable name ok for arithmatic
+# single letter variable name ok for arithmetic
 # like x = 'John'
 # first_name, last_name = name.split()
 
 # Code layout
 
-# Class  and function seperate with blanc lines
+# Class  and function separate with blanc lines
 
-#clss MyClas():
+#class MyClas():
 ##    pass
 ##    def first_method(self):
 ##        pass

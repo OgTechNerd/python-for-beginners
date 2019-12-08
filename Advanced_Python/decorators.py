@@ -1,6 +1,6 @@
 # Decorators in python 
 # A decorator is a function that takes another function 
-# as an input and extends behaviour of that function
+# as an input and extends behavior of that function
 # without explicitly modifying the function
 
 # We will cover First class objects 

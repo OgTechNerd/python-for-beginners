@@ -1,6 +1,6 @@
 # String Manipulation 
 # highlights the operators metods 
-# functions that are avaialble for working with strings
+# functions that are available for working with strings
 # the  + operator concatenates 
 
 x = 'Foo'

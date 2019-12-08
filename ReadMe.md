@@ -1,10 +1,13 @@
 # This Repository hold the source code and explanations  for learning Python 3
-The contents are organised as per readability.
+The contents are organized as per readability.
 
-So we have three sections 
+So we have couple of  sections 
 1. Basics
 2. Best Practices
 4. Advanced
+5. Natural Language Processing
+6. Django
+7. Deep learning
 
 ## Installation
 
@@ -27,7 +30,6 @@ foobar.singularize('phenomena') # returns 'phenomenon'
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
 Please make sure to update tests as appropriate.
 
 ## Author 
