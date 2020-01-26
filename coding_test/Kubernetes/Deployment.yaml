@@ -1,0 +1,55 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: test-app-deployment
+  labels:
+    app: test
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: test
+  template:
+    metadata:
+      labels:
+        app: test
+    spec:
+      containers:
+      - name: test-app
+        image: wacky70/techbanerg:33.0.0
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 5000
+            # httpHeaders:
+            # - name: Custom-Header
+            #   value: Awesome
+          initialDelaySeconds: 3
+          periodSeconds: 3
+        # args:
+        # - /bin/sh
+        # - -c
+        # - touch /root/healthy /root/liveness;
+        # ports:
+        #   - containerPort: 5000
+        # livenessProbe:
+        #   exec:
+        #     command:
+        #     - cat
+        #     - /root/liveness
+        #   initialDelaySeconds: 5
+        #   periodSeconds: 5
+        # readinessProbe:
+        #   exec:
+        #     command:
+        #     - cat
+        #     - /root/healthy
+        #   initialDelaySeconds: 5
+        #   periodSeconds: 5
+        env:
+        - name: "SERVE_PORT"
+          value: "5000"
+        ports:
+        - containerPort: 5000
+      imagePullSecrets:
+        - name: test-app-docker-pull-secret

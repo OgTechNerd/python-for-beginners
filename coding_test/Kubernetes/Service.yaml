@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: test-app-service
+  labels:
+    app:  test
+spec:
+  selector:
+    app: test
+  type: NodePort
+  ports:
+   - port: 5000
+     name: http
+     targetPort: 5000
+     protocol: TCP
