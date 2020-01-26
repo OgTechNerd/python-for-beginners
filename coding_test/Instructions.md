@@ -43,10 +43,10 @@ minikube service test-app-service
 * github id: Techbanerg
 
 # Images #
-![Alt text](/images/Capture1.JPG?raw=true "Deployment Described")
-![Alt text](/images/Capture2.JPG?raw=true "Pod Logs")
-![Alt text](/images/Capture3.JPG?raw=true "Secrets")
-![Alt text](/images/Capture4.JPG?raw=true "Docker Build 1")
+![Alt text](python-tutorial/coding_test/images/Capture1.JPG?raw=true "Deployment Described")
+![Alt text](python-tutorial/coding_test/images/Capture2.JPG?raw=true "Pod Logs")
+![Alt text](python-tutorial/coding_test/images/Capture3.JPG?raw=true "Secrets")
+![Alt text](python-tutorial/coding_test/images/Capture4.JPG?raw=true "Docker Build 1")
 ![Alt text](/images/Capture5.JPG?raw=true "Docker Build 2")
 ![Alt text](/images/Capture6.JPG?raw=true "API call")
 ![Alt text](/images/Capture7.JPG?raw=true "API call 2")
