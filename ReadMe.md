@@ -1,15 +1,20 @@
-# learning Python 3
+# Tech Banerg Python3 Tutorial
 
-## The contents are organized as per readability. ##
+Python is a huge ocean. I have tried to organize couple of topics.
+The contents are organized as per readability.
+
+<p align="center">
+  <img src="./screenshot/logo.png" alt="Size Limit CLI" width="738">
+</p>
 
 **So we have couple of  sections**
 ---
 1. Basics
-2. Best Practices
-4. Advanced
-5. Natural Language Processing
+2. Advanced
+3. Coding Tests \ Challenges
+4. Machine Learning
+5. Deep learning
 6. Django
-7. Deep learning
 
 **Installation**
 ---
