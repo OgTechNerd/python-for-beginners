@@ -45,7 +45,7 @@ Please make sure to update tests as appropriate.
 
 **Author**
 ---
-Arindam Banerjee 
-Email:  tech.banerg.gmail.com / wacky70@gmail.com /banerjee_arindam8622@yahoo.com
++ Arindam Banerjee 
++ Email:  tech.banerg.gmail.com / wacky70@gmail.com / banerjee_arindam8622@yahoo.com
 
 
