@@ -39,10 +39,13 @@ pip 19.3.1 from c:\python38\lib\site-packages\pip (python 3.8)
 
 
 **Contributing**
+---
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 Please make sure to update tests as appropriate.
 
 **Author**
-Arindam Banerjee
+---
+Arindam Banerjee 
+Email:  tech.banerg.gmail.com / wacky70@gmail.com /banerjee_arindam8622@yahoo.com
 
 
