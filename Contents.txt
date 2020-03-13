@@ -1,7 +1,0 @@
-Topics Covered in the Tutorial:
-
-1.  The Python Square root function
-2.  How to use the Python Or Operator
-3.  Basic Input and Output and String formatting in Python
-4.  How to Implement a Python Stack
-5.  How to Use Sorted() and sort() in python

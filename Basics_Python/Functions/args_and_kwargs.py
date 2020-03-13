@@ -14,17 +14,17 @@
 # For this problem Python has got a solution called **kwargs, it allows us to pass the variable length of keyword arguments to the function.
 # In the function, we use the double asterisk ** before the parameter name to denote this type of argument. The arguments are passed as a dictionary and these arguments make a dictionary inside function with name same as the parameter excluding double asterisk **.
 
-def funct_one(*argv):
+def functionone(*argv):
     for item in argv:
         print(item) 
 
     print(argv[0])
 
-def funct_two(**kwargs):
+def functiontwo(**kwargs):
     for key , value in kwargs.items():
         print(key, value)
 
-def funct_three(*argv, **kwargs):
+def functionthree(*argv, **kwargs):
     for key , value in kwargs.items():
         if key:
             print(key, value)
@@ -34,10 +34,10 @@ def funct_three(*argv, **kwargs):
             print(item)
     else:
         print("No arg passed")
-funct_one('first_arg', 'second_arg', 'third_arg')
+functionone('first_arg', 'second_arg', 'third_arg')
 kwargs = {"first": "one", "second": "two", "third": "three"}
-list = ['wacky', 'devine', 'naezy']
-kwargs1 = {'mahima': 'mast', 'sunny': 'hard', 'aishwariya': 'biwi'}
-funct_two(**kwargs)
-funct_three(list)
-funct_three(kwargs1)
+list = ['wacky', 'divine', 'harsh']
+kwargs1 = {'australia': 'tier1', 'united Kingdom':'tier2', 'united states': 'tier3'}
+functiontwo(**kwargs)
+functionthree(list)
+functionthree(kwargs1)
