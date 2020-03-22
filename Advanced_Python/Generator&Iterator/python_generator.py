@@ -1,4 +1,4 @@
-# Generators are functiosn that can be paused and resumed on the
+# Generators are function that can be paused and resumed on the
 # fly , returning an object that can be iterated over.
 # unlike  lists, they are lazy and thus produce items
 # one at a time and only when asked. So they are much more 
@@ -16,7 +16,7 @@ def count(num):
 val = count(10)
 print (next(val))
 
-# Generator Expresions , generator can also be writen in the
+# Generator Expresions , generator can also be written in the
 # same manner except they return a generator object
 # rather than a list
 

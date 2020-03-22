@@ -10,31 +10,36 @@
 
 def my_sample_function(string):
     """docstrings"""
-    return (string+" Banchod chele")
+    return (string+" Do you Hear Me ?")
 
 
-function = my_sample_function("somnath")
+function = my_sample_function("Sam")
 print(function)
 refference_func = my_sample_function
 print(refference_func)
+
 # functions are first class objects 
 # functions can  be passed as arguments
 # function can be passed to another function as argument
 # functions can be added to list like variables
 
 def KissMe(name):
-    return (name + " You kissed me")
+    return ("\n### "+name + " You kissed me ###")
 def HugMe(name):
     return (name + " you hugged me")
-def BangMe(name):
-    return (name + " you Banged me")
+def SlapMe(name):
+    return (name + " you slapped me")
 
-list_rel = [KissMe, HugMe, BangMe]
+# The below list is a  list of functions 
+list_rel = [KissMe, HugMe, SlapMe]
 print(list_rel)
+
+# Looping through list of functions
 for item in list_rel:   
-    print(item("Johny Sins"))
+    print(item("Johny "))
 
 ## passing a function as an argument to another functions
+## There are 2 functions func1 and func2  . We pass funct2 as an argument of func1.
 
 def funct1(function):
     print('executing the function passed')
@@ -42,7 +47,7 @@ def funct1(function):
 
 def funct2(string):
     if (string == 'Oh Yeah'): 
-        print('Guy is happy')
+        print('Person is happy')
     else:
         print("Something is wrong")
 
@@ -96,7 +101,10 @@ def sample_decorator1(func):
 def demo_func1(name):
     print(f"Woo Hoo {name}")
 
+
+demo_func()
 demo_func1('Guten Morgan')
+
 
 
 
