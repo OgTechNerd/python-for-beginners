@@ -4,7 +4,7 @@ Python is a huge ocean. I have tried to organize couple of topics.
 The contents are organized as per readability.
 
 <p align="center">
-  <img src="./screenshots/logo.png" alt="Size Limit CLI" width="738">
+  <img src="./screenshot/logo.png" alt="Size Limit CLI" width="738">
 </p>
 
 **So we have couple of  sections**
