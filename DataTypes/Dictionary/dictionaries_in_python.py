@@ -1,17 +1,17 @@
-# python provides another compoite data
+# python provides another composite data
 # type called dictionary which is similar to a list in that it is
 # a collection of objects
-# Dictionaries and list share the following characteristcs
+# Dictionaries and list share the following characteristics
 # both are mutable, both are dynamic
 # they can grow and shrink as needed
 # both can be nested . A list can contain another list
 # A dictionary can be nested . A list can contain another
-# list. A dicitonary can contain antoher dictionary
+# list. A dictionary can contain another dictionary
 # A dictionary can also contain list.
 
 # Dictionaries are python implementation of data structure
 # that is more generally known as associative array.
-# A dictionary consist of a clollection of key-Value
+# A dictionary consist of a collection of key-Value
 # pairs maps the key to associative array
 
 sample_dict = {

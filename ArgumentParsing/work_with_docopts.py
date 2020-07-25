@@ -1,10 +1,10 @@
 # Working with Doc Opts
 # In order to add an option we add a <name> 
 # to the docstring . They <> are used to designate
-# a postional argument. i order to exeute the 
+# a positional argument. i order to execute the 
 # current logic we must check if the command is 
 # true  at runtime if argument['arg']. Then call
-# the correct fuction
+# the correct function
 """Greeter.
 
 Usage:

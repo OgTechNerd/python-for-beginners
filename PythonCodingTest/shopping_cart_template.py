@@ -25,7 +25,7 @@ def ComplexShoppingCart(cart):
         #print("Actual Cost {}".format(str(cart[key]['cost'])))
         print("Total Cost: {0} for person {1}".format(str(cart[key]['cost']), key))
 
-if __name__ == '__main__': 
+if __name__ == '__main__':
     #Main()
     cart_dict={
         'shaun': {'product': 'budweiser', 'price': '285', 'quantity': '120' , 'discount': '5'},
