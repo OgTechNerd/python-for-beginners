@@ -1,7 +1,7 @@
 # This short course breaks down Python list comprehensions for yuo step by step
 # see how python's comprehensions can be transformed from and to equivalent for loops 
 # so you wil  know exactly what's going on behind the scenes
-# one of the favourite features in Python are list comprehension.
+# one of the favorite features in Python are list comprehension.
 # they can seem a bit arcane at first but when you break them down
 # they are actually very simple constructs.
 # list comprehensions
